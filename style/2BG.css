@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: white;
+}
+body{
+    background-color: #122856;
+}
+header{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+header div img{
+    margin-top: 0px;
+    padding-top: 3px;
+    width: auto;
+    height: 130px;
+}
+header h1{
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight:lighter;
+}
+header nav ul a{
+    margin-top: 0px;
+    padding-top: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+}
+.on-line{
+    display: inline-flex;
+    padding-top: 22px;
+    padding-left: 79px;
+    
+}
+
+.line1{
+    padding-bottom: 2px; 
+    border-right: 1px solid white;
+ 
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.line2{
+    padding-bottom: 2px; 
+    border-right: 1px solid white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 2px;   
+}
+.line3{
+    padding-left: 10px;
+}
+
+.book{
+margin-top: 8px;
+    width: auto;
+    height: 94px;
+    overflow: hidden;
+    padding-left: 60px;
+}
+.login{
+    margin-top: 8px;
+    width: auto;
+    height: 94px;
+    overflow: hidden;
+    padding-left: 70px;
+}
+.first{
+ width: 70px;
+ height: 20px;
+ padding-top: 1px 8px;
+ margin-top: 110px;
+ margin-left: -83px;
+ border-radius: 16px;
+ background-color: rgba(0, 0, 0, 0);
+ border: 2px solid white;
+ color: white;
+ font-size: 12px;
+ transition-duration: 0.4s;
+}
+.first:hover{
+    background-color: rgb(151,159,174);
+}
+.second{
+    margin-top: 110px;
+    margin-left: -89px;
+    width: 110px;
+    height: 20px;
+    padding-top: 1px 1px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+.second:hover{
+    background-color: rgb(151,159,174);
+}
+.rectangle{
+    height: 10px;
+    width: 1263px;
+    background-color: white;
+    box-shadow: inset 3px 3px 2px 3px rgba(0, 0, 0, 0.171);
+}
+
+.bgimg{
+    margin: 0px;
+    padding: 0px 4px;
+    width: 1253px;
+    height: auto;
+ }
+.click{
+   padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white !important;
+    font-size: 38px;
+    font-weight: 550;
+    text-decoration: underline solid 3px white;
+}
+.bgimg{
+    position: relative;
+    width: 1253px;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+.click1{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.click2{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+}
+.click3{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.click4{
+    position: absolute;
+    top: 30%;
+    left: 62%;
+}
+.click5{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+.rectangle2{
+    width: 600px;
+    height: 70px;
+    border-radius: 19px;
+    background-color: #ffffffdb;
+}
+.rectangle2{
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    top: 42%;
+    left: 28%;
+    cursor: text;
+}
+.HEA{
+    position: absolute;
+    color: rgb(27, 26, 26);
+    top: 45%;
+    left: 38%;
+    font-style: italic;
+}
+.duck{
+    position: absolute;
+    width: auto;
+    height: 55px;
+    top: 42%;
+    left: 68%;
+}
+.svsss{
+    position: absolute;
+    top: 64.5%;
+    left: 5%;
+    height: 360px;
+    width: 365px;
+}
+.bl{
+    position: absolute;
+    top: 64.5%;
+    left: 37%;
+    height: 360px;
+    width: 365px;
+    
+}
+.ff{
+    position: absolute;
+    top: 64.5%;
+    left: 69%;
+    height: 360px;
+    width: 365px;  
+}
+
+main .imdone{
+    list-style: none;
+    text-decoration: none !important;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+.books{
+    position: absolute;
+    top: 64.5%;
+    left: 5%;
+    width: 365px;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.27);
+    font-size: 55px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 150px;
+    text-align: center;
+    text-decoration: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 3px 0px 2px rgb(0, 0, 0);
+}
+.manhwa{
+    position: absolute;
+    top: 64.5%;
+    left: 37%;
+    width: 365px;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.27);
+    font-size: 55px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 150px;
+    text-align: center;
+    text-decoration: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    text-shadow: 3px 0px 2px rgb(0, 0, 0);
+}
+.fanf{
+    position: absolute;
+    top: 64.5%;
+    left: 69%;
+    width: 365px;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.327);
+    color: rgb(126, 40, 40);
+    text-shadow: rgba(0, 0, 0, 0.27);
+    font-size: 55px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 150px;
+    text-align: center;
+    text-shadow: 3px 0px 2px rgb(0, 0, 0);
+}
+.circle{
+    position: absolute;
+    margin-top: 300px ;
+    top: 86%;
+    left: 53%;
+    width: 20px;
+    height: 20px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+
+}
+.circle2{
+    position: absolute;
+    margin-top: 300px ;
+    top: 86%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #122856;
+    border-radius: 50%;
+}
+.circle3{
+    position: absolute;
+    margin-top: 300px ;
+    top: 86%;
+    left: 47%;
+    width: 20px;
+    height: 20px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
